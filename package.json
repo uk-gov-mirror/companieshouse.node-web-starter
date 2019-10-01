@@ -1,0 +1,40 @@
+{
+  "name": "web-starter-nodejs",
+  "version": "1.0.0",
+  "description": "A starter web application",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node ./src/server.ts",
+    "start:watch": "nodemon",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "govuk-frontend": "^3.2.0",
+    "nunjucks": "^3.2.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.1",
+    "@types/node": "^12.7.8",
+    "@types/nunjucks": "^3.1.2",
+    "jest": "^24.9.0",
+    "nodemon": "^1.19.3",
+    "ts-jest": "^24.1.0",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.3"
+  },
+  "nodemonConfig": {
+    "watch": [
+      "./src"
+    ],
+    "ext": ["ts", "html"],
+    "legacyWatch": true,
+    "ignore": [
+      "**/*.spec.ts"
+    ],
+    "exec": "ts-node ./src/server.ts"
+  }
+}

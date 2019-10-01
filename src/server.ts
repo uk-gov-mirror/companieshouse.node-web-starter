@@ -1,5 +1,5 @@
 import app from "./app";
 
-app.listen(3000, () => {
-  console.log("server listening on 0.0.0.0:3000");
+app.listen(app.get("port"), () => {
+  console.log(`server listening on 0.0.0.0:${app.get("port")}`);
 });

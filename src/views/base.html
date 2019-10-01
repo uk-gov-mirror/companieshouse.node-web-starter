@@ -1,10 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% extends "govuk/template.njk" %}
 
-</body>
-</html>
+{% block head %}
+<!--[if !IE 8]><!-->
+<link rel="stylesheet" type="text/css" media="all" href="{{ CSS_URL }}" />
+<!--<![endif]-->
+
+{% endblock %}

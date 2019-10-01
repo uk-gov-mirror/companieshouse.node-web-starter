@@ -38,8 +38,9 @@ You are going to need a few things to begin. Firstly, NodeJS. There are a few wa
 
 Node version manager allows you to install multiple versions side by side on the host machine.
 
-Once you have that installed, you will need [GulpJS](https://gulpjs.com) installed globally. This task runner is used to compile the [Sass](https://sass-lang.com) used in the GovUK Frontend.
+Once you have that installed, you will need to install the dependencies (locally) and [GulpJS](https://gulpjs.com) (globally). This task runner is used to compile the [Sass](https://sass-lang.com) used in the GovUK Frontend.
 
+    npm i
     npm install gulp-cli -g
     
 ### Running the server

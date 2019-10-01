@@ -15,6 +15,7 @@ The template uses [Express](https://expressjs.com), [TypeScript](https://typescr
 - [Running the server](#running-the-server)
 - [Static assets](#static-assets)
 - [Compiling the application](#compiling-the-application)
+- [Linting](#linting)
 
 ### Quick start
 
@@ -68,3 +69,9 @@ TypeScript compiles down the JavaScript code that eventually gets run via NodeJS
     npm run build
     
 **It is this code that gets run in production.**
+
+### Linting
+
+[TSLint](https://palantir.github.io/tslint/) is used to perform static analysis on code style.
+
+    npm run lint

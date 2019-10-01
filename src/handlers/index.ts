@@ -1,1 +1,1 @@
-export {default as helloHandler} from "./hello";
+export {default as homeHandler} from "./home";

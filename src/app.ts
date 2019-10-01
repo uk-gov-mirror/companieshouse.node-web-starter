@@ -16,10 +16,10 @@ const viewPath = path.join(__dirname, "views");
 const env = nunjucks.configure([
   viewPath,
   "node_modules/govuk-frontend/",
-  "node_modules/govuk-frontend/components"
+  "node_modules/govuk-frontend/components",
 ], {
   autoescape: true,
-  express: app
+  express: app,
 });
 
 app.set("views", viewPath);

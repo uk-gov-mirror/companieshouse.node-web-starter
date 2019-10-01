@@ -16,6 +16,7 @@ The template uses [Express](https://expressjs.com), [TypeScript](https://typescr
 - [Static assets](#static-assets)
 - [Compiling the application](#compiling-the-application)
 - [Linting](#linting)
+- [Testing](#testing)
 
 ### Quick start
 
@@ -75,3 +76,9 @@ TypeScript compiles down the JavaScript code that eventually gets run via NodeJS
 [TSLint](https://palantir.github.io/tslint/) is used to perform static analysis on code style.
 
     npm run lint
+
+### Testing
+
+Tests can be found in the directory [src/test](./src/test). The framework used is [Jest](https://jestjs.io) along with [Supertest](https://github.com/visionmedia/supertest) to dispatch handlers that can have assertions made against the responses. Execute the following to run the tests;
+
+    npm t

@@ -1,40 +1,24 @@
 # Web Starter NodeJS
 
-This is a template repository for starting a new web project that is bootstrapped with [TypeScript](https://typescriptlang.org) and [Express](https://expressjs.com).
+### Overview
 
-## Overview
+The aim of this template is to give you a head start in setting up a new web application for Companies House.
+
+The template uses [Express](https://expressjs.com), [TypeScript](https://typescriptlang.org) and the [GovUK Frontend](https://github.com/alphagov/govuk-frontend) toolkit to set up a simple example of a web application that runs on NodeJS.
+
+## Contents
 
 - [Quick start](#quick-start)
-- [Prerequisites](#prerequisites)
-- [Installing from scratch](#installing-from-scratch)
-- Running the app
-- Building the app
-- Testing
-- Linting
 
 ### Quick start
 
-If you are familiar with NodeJS development and already have it installed, simply install the dependencies and run the example!
+If you are familiar with NodeJS development and already have it installed, simply run the `init` make task
 
-    npm i
+    make init
+    
+And then start the application
+    
     npm start
     
-The `start` task uses [ts-node](https://github.com/TypeStrong/ts-node) to run the TypeScript source files in memory. If you want to watch for file system changes and reload the server, use the `start:watch` task.
+Then go to [http://localhost:3000](http://localhost:3000).
 
-    npm run start:watch
-
-### Prerequisites
-
-The only technical dependency is [NodeJS](https://nodejs.org). There are a few ways to install it on your machine;
-
-- [Official installer](https://nodejs.org/en/)
-- [Node Version Manager](https://github.com/nvm-sh/nvm)
-- [Homebrew](https://formulae.brew.sh/formula/node)
-
-Node version manager allows you to install multiple versions side by side on the host machine.
-
-### Installing from scratch
-
-After creating a new repository from this template, clone the repository and install the dependencies.
-
-    npm i 

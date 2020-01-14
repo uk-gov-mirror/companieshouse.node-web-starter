@@ -23,5 +23,5 @@ gulp-install:
 	npm install gulp-cli -g
 
 .PHONY: init
-init: npm-install gulp-install
+init: npm-install gulp-install build-static
 
